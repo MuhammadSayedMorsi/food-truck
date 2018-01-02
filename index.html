@@ -1,54 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
-  <title>food truck</title>
+  <title>Food Truck</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+  <link rel="stylesheet" href="app/assets/css/owl.carousel.min.css">
+  <link rel="stylesheet" href="app/assets/css/owl.theme.default.min.css">
   <link rel="stylesheet" href="app/assets/css/main.css" />
   <body>
-    <nav>
-      <!-- topNav -->
-      <div class="container">
-        <div class="wrapper-icon">
-          <div class="icon">
-              <ul>
-                <li><svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="21.23" height="42.01" viewBox="0 0 21.23 42.01"><defs><style>.cls-1{fill:#fff;}</style></defs><title>facebook</title><path class="cls-1" d="M21.23,0.31V7H17.4a3.55,3.55,0,0,0-2.85.91,4.26,4.26,0,0,0-.74,2.72v4.77H21l-1,7.47H13.81V42H6.27V22.85H0V15.38H6.27V9.85q0-4.69,2.55-7.28A9,9,0,0,1,15.63,0,39.57,39.57,0,0,1,21.23.31Z"/></svg></li>
-                <li><svg aria-labelledby="simpleicons-twitter-icon" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title id="simpleicons-twitter-icon">Twitter icon</title><path d="M23.954 4.569c-.885.389-1.83.654-2.825.775 1.014-.611 1.794-1.574 2.163-2.723-.951.555-2.005.959-3.127 1.184-.896-.959-2.173-1.559-3.591-1.559-2.717 0-4.92 2.203-4.92 4.917 0 .39.045.765.127 1.124C7.691 8.094 4.066 6.13 1.64 3.161c-.427.722-.666 1.561-.666 2.475 0 1.71.87 3.213 2.188 4.096-.807-.026-1.566-.248-2.228-.616v.061c0 2.385 1.693 4.374 3.946 4.827-.413.111-.849.171-1.296.171-.314 0-.615-.03-.916-.086.631 1.953 2.445 3.377 4.604 3.417-1.68 1.319-3.809 2.105-6.102 2.105-.39 0-.779-.023-1.17-.067 2.189 1.394 4.768 2.209 7.557 2.209 9.054 0 13.999-7.496 13.999-13.986 0-.209 0-.42-.015-.63.961-.689 1.8-1.56 2.46-2.548l-.047-.02z"/></svg>
-                </li>
-                <li><svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="34.75" height="42" viewBox="0 0 34.75 42"><defs><style>.cls-1{fill:#fff;}</style></defs><title>youtube</title><path class="cls-1" d="M22.13,29.15v5q0,1.57-.91,1.57a1.5,1.5,0,0,1-1.06-.52V28.09a1.5,1.5,0,0,1,1.06-.54Q22.13,27.55,22.13,29.15Zm7.92,0v1.08H27.95V29.17q0-1.59,1.06-1.59t1,1.59v0ZM7.42,24H9.92V21.86H2.62v2.2H5.08V37.4H7.42V24ZM14.17,37.4h2.09V25.82H14.17v8.86a1.86,1.86,0,0,1-1.31,1,0.48,0.48,0,0,1-.49-0.47s0,0,0,0a6.52,6.52,0,0,1,0-.82V25.82H10.23V35a5.79,5.79,0,0,0,.19,1.71,1.26,1.26,0,0,0,1.36.87,3.43,3.43,0,0,0,2.39-1.43V37.4Zm10.05-3.47V29.33A8.33,8.33,0,0,0,24,27a1.63,1.63,0,0,0-1.67-1.31A2.82,2.82,0,0,0,20.16,27v-5.1H18.08V37.4h2.09V36.27a2.91,2.91,0,0,0,2.18,1.31A1.62,1.62,0,0,0,24,36.27,8.61,8.61,0,0,0,24.22,33.92Zm7.92-.24v-0.3H30a11.6,11.6,0,0,1,0,1.43,0.9,0.9,0,0,1-.94.85q-1.08,0-1.08-1.61V32h4.19V29.59a4.65,4.65,0,0,0-.66-2.72,3.2,3.2,0,0,0-5,0,4.52,4.52,0,0,0-.66,2.72v4.05a4.4,4.4,0,0,0,.66,2.72A3,3,0,0,0,29,37.56a2.9,2.9,0,0,0,3-2.51,10.31,10.31,0,0,0,.09-1.36h0ZM17.89,12.3V7.38q0-1.61-1-1.61t-1,1.61V12.3q0,1.64,1,1.64T17.89,12.3ZM34.74,29.9a40.6,40.6,0,0,1-.61,8.2,4.45,4.45,0,0,1-1.36,2.32,4.1,4.1,0,0,1-2.39,1.08,125.31,125.31,0,0,1-13,.49,125.31,125.31,0,0,1-13-.49A4.15,4.15,0,0,1,2,40.42,4.28,4.28,0,0,1,.63,38.1,39.76,39.76,0,0,1,0,29.9a40.6,40.6,0,0,1,.61-8.2A4.45,4.45,0,0,1,2,19.37a4.25,4.25,0,0,1,2.41-1.1q4.29-.47,13-0.47t13,0.47a4.4,4.4,0,0,1,3.75,3.42A39.76,39.76,0,0,1,34.74,29.9ZM11.35,0h2.39L10.91,9.35V15.7H8.57V9.35a39.68,39.68,0,0,0-1.43-5Q6.27,2,5.61,0H8.1L9.77,6.16ZM20,7.8v4.1a4.59,4.59,0,0,1-.66,2.76,2.88,2.88,0,0,1-2.49,1.19,2.9,2.9,0,0,1-2.46-1.19,4.68,4.68,0,0,1-.66-2.76V7.8a4.59,4.59,0,0,1,.66-2.74,2.9,2.9,0,0,1,2.46-1.19,2.88,2.88,0,0,1,2.49,1.19A4.59,4.59,0,0,1,20,7.8ZM27.87,4V15.7H25.74V14.43a3.37,3.37,0,0,1-2.41,1.45A1.31,1.31,0,0,1,22,15a6,6,0,0,1-.19-1.76V4h2.13V12.6a6.14,6.14,0,0,0,0,.82,0.49,0.49,0,0,0,.47.52h0a1.87,1.87,0,0,0,1.31-1V4h2.16Z"/></svg></li>
-                <li><svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="42.01" height="42.01" viewBox="0 0 42.01 42.01"><defs><style>.cls-1{fill:#fff;}</style></defs><title>instagram</title><path class="cls-1" d="M37.25,35.49V17.77H33.56a11.77,11.77,0,0,1,.57,3.58,12.12,12.12,0,0,1-1.75,6.36,12.76,12.76,0,0,1-4.76,4.59A13.13,13.13,0,0,1,21.06,34a12.78,12.78,0,0,1-9.19-3.71,12,12,0,0,1-3.83-9,11.77,11.77,0,0,1,.49-3.56H4.68V35.49a1.63,1.63,0,0,0,1.6,1.67h29.3a1.63,1.63,0,0,0,1.17-.47A1.59,1.59,0,0,0,37.25,35.49ZM29.48,20.92A7.75,7.75,0,0,0,27,15.14a8.28,8.28,0,0,0-6-2.4,8.25,8.25,0,0,0-5.91,2.39,7.75,7.75,0,0,0-2.47,5.78,7.75,7.75,0,0,0,2.47,5.79A8.25,8.25,0,0,0,21,29.1a8.28,8.28,0,0,0,6-2.4A7.75,7.75,0,0,0,29.48,20.92Zm7.76-9.84V6.56a1.84,1.84,0,0,0-.54-1.31,1.8,1.8,0,0,0-1.31-.56H30.61a1.8,1.8,0,0,0-1.31.56,1.84,1.84,0,0,0-.54,1.31v4.52A1.87,1.87,0,0,0,30.6,13h4.8a1.87,1.87,0,0,0,1.85-1.89h0ZM42,5.39V36.62A5.41,5.41,0,0,1,36.62,42H5.39a5.19,5.19,0,0,1-3.8-1.59A5.19,5.19,0,0,1,0,36.62V5.39a5.19,5.19,0,0,1,1.59-3.8A5.19,5.19,0,0,1,5.39,0H36.62a5.19,5.19,0,0,1,3.8,1.59A5.19,5.19,0,0,1,42,5.39Z"/></svg></li>
-                <li><?xml version="1.0" encoding="utf-8"?>
-                  <svg version="1.1" id="Laag_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                     viewBox="0 0 22 20" style="enable-background:new 0 0 22 20;" xml:space="preserve">
-                  <path style="fill: #007EBB;" d="M22,20h-4.9v-7c0-1.8-0.8-3.1-2.4-3.1c-1.3,0-2,0.8-2.3,1.7c-0.1,0.3-0.1,0.7-0.1,1.1V20H7.5
-                    c0,0,0.1-12.5,0-13.6h4.8v2.1c0.3-0.9,1.8-2.3,4.3-2.3c3,0,5.4,2,5.4,6.2V20L22,20z M2.6,4.7L2.6,4.7C1,4.7,0,3.7,0,2.4
-                    C0,1,1,0,2.6,0c1.6,0,2.6,1,2.6,2.4C5.2,3.7,4.2,4.7,2.6,4.7L2.6,4.7L2.6,4.7z M0.6,6.4h4.3V20H0.6V6.4L0.6,6.4z"/>
-                  </svg>
-                  </li>
-              </ul>
-          </div>
-          <div class="s-contact">
-            <ul>
-              <li>Subscribe</li>
-              <li>Contact</li>
-              <li>Sign in</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </nav>
     <!-- header -->
     <header class="main-header">
+        <nav>
+            <div class="container">
+              <div class="wrapper-icon">
+                <div class="icon">
+                    <ul>
+                      <li><svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="21.23" height="42.01" viewBox="0 0 21.23 42.01"><defs><style>.cls-1{fill:#fff;}</style></defs><title>facebook</title><path class="cls-1" d="M21.23,0.31V7H17.4a3.55,3.55,0,0,0-2.85.91,4.26,4.26,0,0,0-.74,2.72v4.77H21l-1,7.47H13.81V42H6.27V22.85H0V15.38H6.27V9.85q0-4.69,2.55-7.28A9,9,0,0,1,15.63,0,39.57,39.57,0,0,1,21.23.31Z"/></svg></li>
+                      <li><svg aria-labelledby="simpleicons-twitter-icon" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title id="simpleicons-twitter-icon">Twitter icon</title><path d="M23.954 4.569c-.885.389-1.83.654-2.825.775 1.014-.611 1.794-1.574 2.163-2.723-.951.555-2.005.959-3.127 1.184-.896-.959-2.173-1.559-3.591-1.559-2.717 0-4.92 2.203-4.92 4.917 0 .39.045.765.127 1.124C7.691 8.094 4.066 6.13 1.64 3.161c-.427.722-.666 1.561-.666 2.475 0 1.71.87 3.213 2.188 4.096-.807-.026-1.566-.248-2.228-.616v.061c0 2.385 1.693 4.374 3.946 4.827-.413.111-.849.171-1.296.171-.314 0-.615-.03-.916-.086.631 1.953 2.445 3.377 4.604 3.417-1.68 1.319-3.809 2.105-6.102 2.105-.39 0-.779-.023-1.17-.067 2.189 1.394 4.768 2.209 7.557 2.209 9.054 0 13.999-7.496 13.999-13.986 0-.209 0-.42-.015-.63.961-.689 1.8-1.56 2.46-2.548l-.047-.02z"/></svg>
+                      </li>
+                      <li><svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="34.75" height="42" viewBox="0 0 34.75 42"><defs><style>.cls-1{fill:#fff;}</style></defs><title>youtube</title><path class="cls-1" d="M22.13,29.15v5q0,1.57-.91,1.57a1.5,1.5,0,0,1-1.06-.52V28.09a1.5,1.5,0,0,1,1.06-.54Q22.13,27.55,22.13,29.15Zm7.92,0v1.08H27.95V29.17q0-1.59,1.06-1.59t1,1.59v0ZM7.42,24H9.92V21.86H2.62v2.2H5.08V37.4H7.42V24ZM14.17,37.4h2.09V25.82H14.17v8.86a1.86,1.86,0,0,1-1.31,1,0.48,0.48,0,0,1-.49-0.47s0,0,0,0a6.52,6.52,0,0,1,0-.82V25.82H10.23V35a5.79,5.79,0,0,0,.19,1.71,1.26,1.26,0,0,0,1.36.87,3.43,3.43,0,0,0,2.39-1.43V37.4Zm10.05-3.47V29.33A8.33,8.33,0,0,0,24,27a1.63,1.63,0,0,0-1.67-1.31A2.82,2.82,0,0,0,20.16,27v-5.1H18.08V37.4h2.09V36.27a2.91,2.91,0,0,0,2.18,1.31A1.62,1.62,0,0,0,24,36.27,8.61,8.61,0,0,0,24.22,33.92Zm7.92-.24v-0.3H30a11.6,11.6,0,0,1,0,1.43,0.9,0.9,0,0,1-.94.85q-1.08,0-1.08-1.61V32h4.19V29.59a4.65,4.65,0,0,0-.66-2.72,3.2,3.2,0,0,0-5,0,4.52,4.52,0,0,0-.66,2.72v4.05a4.4,4.4,0,0,0,.66,2.72A3,3,0,0,0,29,37.56a2.9,2.9,0,0,0,3-2.51,10.31,10.31,0,0,0,.09-1.36h0ZM17.89,12.3V7.38q0-1.61-1-1.61t-1,1.61V12.3q0,1.64,1,1.64T17.89,12.3ZM34.74,29.9a40.6,40.6,0,0,1-.61,8.2,4.45,4.45,0,0,1-1.36,2.32,4.1,4.1,0,0,1-2.39,1.08,125.31,125.31,0,0,1-13,.49,125.31,125.31,0,0,1-13-.49A4.15,4.15,0,0,1,2,40.42,4.28,4.28,0,0,1,.63,38.1,39.76,39.76,0,0,1,0,29.9a40.6,40.6,0,0,1,.61-8.2A4.45,4.45,0,0,1,2,19.37a4.25,4.25,0,0,1,2.41-1.1q4.29-.47,13-0.47t13,0.47a4.4,4.4,0,0,1,3.75,3.42A39.76,39.76,0,0,1,34.74,29.9ZM11.35,0h2.39L10.91,9.35V15.7H8.57V9.35a39.68,39.68,0,0,0-1.43-5Q6.27,2,5.61,0H8.1L9.77,6.16ZM20,7.8v4.1a4.59,4.59,0,0,1-.66,2.76,2.88,2.88,0,0,1-2.49,1.19,2.9,2.9,0,0,1-2.46-1.19,4.68,4.68,0,0,1-.66-2.76V7.8a4.59,4.59,0,0,1,.66-2.74,2.9,2.9,0,0,1,2.46-1.19,2.88,2.88,0,0,1,2.49,1.19A4.59,4.59,0,0,1,20,7.8ZM27.87,4V15.7H25.74V14.43a3.37,3.37,0,0,1-2.41,1.45A1.31,1.31,0,0,1,22,15a6,6,0,0,1-.19-1.76V4h2.13V12.6a6.14,6.14,0,0,0,0,.82,0.49,0.49,0,0,0,.47.52h0a1.87,1.87,0,0,0,1.31-1V4h2.16Z"/></svg></li>
+                      <li><svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="42.01" height="42.01" viewBox="0 0 42.01 42.01"><defs><style>.cls-1{fill:#fff;}</style></defs><title>instagram</title><path class="cls-1" d="M37.25,35.49V17.77H33.56a11.77,11.77,0,0,1,.57,3.58,12.12,12.12,0,0,1-1.75,6.36,12.76,12.76,0,0,1-4.76,4.59A13.13,13.13,0,0,1,21.06,34a12.78,12.78,0,0,1-9.19-3.71,12,12,0,0,1-3.83-9,11.77,11.77,0,0,1,.49-3.56H4.68V35.49a1.63,1.63,0,0,0,1.6,1.67h29.3a1.63,1.63,0,0,0,1.17-.47A1.59,1.59,0,0,0,37.25,35.49ZM29.48,20.92A7.75,7.75,0,0,0,27,15.14a8.28,8.28,0,0,0-6-2.4,8.25,8.25,0,0,0-5.91,2.39,7.75,7.75,0,0,0-2.47,5.78,7.75,7.75,0,0,0,2.47,5.79A8.25,8.25,0,0,0,21,29.1a8.28,8.28,0,0,0,6-2.4A7.75,7.75,0,0,0,29.48,20.92Zm7.76-9.84V6.56a1.84,1.84,0,0,0-.54-1.31,1.8,1.8,0,0,0-1.31-.56H30.61a1.8,1.8,0,0,0-1.31.56,1.84,1.84,0,0,0-.54,1.31v4.52A1.87,1.87,0,0,0,30.6,13h4.8a1.87,1.87,0,0,0,1.85-1.89h0ZM42,5.39V36.62A5.41,5.41,0,0,1,36.62,42H5.39a5.19,5.19,0,0,1-3.8-1.59A5.19,5.19,0,0,1,0,36.62V5.39a5.19,5.19,0,0,1,1.59-3.8A5.19,5.19,0,0,1,5.39,0H36.62a5.19,5.19,0,0,1,3.8,1.59A5.19,5.19,0,0,1,42,5.39Z"/></svg></li>
+                      <li><?xml version="1.0" encoding="utf-8"?>
+                        <svg version="1.1" id="Laag_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                           viewBox="0 0 22 20" style="enable-background:new 0 0 22 20;" xml:space="preserve">
+                        <path style="fill: #007EBB;" d="M22,20h-4.9v-7c0-1.8-0.8-3.1-2.4-3.1c-1.3,0-2,0.8-2.3,1.7c-0.1,0.3-0.1,0.7-0.1,1.1V20H7.5
+                          c0,0,0.1-12.5,0-13.6h4.8v2.1c0.3-0.9,1.8-2.3,4.3-2.3c3,0,5.4,2,5.4,6.2V20L22,20z M2.6,4.7L2.6,4.7C1,4.7,0,3.7,0,2.4
+                          C0,1,1,0,2.6,0c1.6,0,2.6,1,2.6,2.4C5.2,3.7,4.2,4.7,2.6,4.7L2.6,4.7L2.6,4.7z M0.6,6.4h4.3V20H0.6V6.4L0.6,6.4z"/>
+                        </svg>
+                        </li>
+                    </ul>
+                </div>
+                <div class="s-contact">
+                  <ul>
+                    <li>Subscribe</li>
+                    <li>Contact</li>
+                    <li>Sign in</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </nav>
     <div class="wrapper-nav">
         <div class="hold-logo">Food Truck</div>
       <div class="navigation">
         <ul>
-          <li><a href="">home</a></li>
-          <li><a href="">about us</a></li>
-          <li><a href="">shop</a></li>
-          <li><a href="">chiefs</a></li>
-          <li><a href="">egyptian food</a></li>
+          <li><a href=""> <span data-hover="home">home</span></a></li>
+          <li><a href=""> <span data-hover="about us">about us</span></a></li>
+          <li><a href=""> <span data-hover="shop">shop</span></a></li>
+          <li><a href=""> <span data-hover="chefs">chefs</span></a></li>
+          <li><a href=""> <span data-hover="chefs">egyptian food</span></a></li>
         </ul>
     </div>
+    <div class="header_mobile">
+        <div class="header_toggle " id="toggle_menu">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
   </div>
     <div class="content-header">
       <h1>Find Best Dish For Today</h1>
@@ -62,32 +72,592 @@
       </div>
     </form>
     </header>
-    <!-- section -->
+    <!-- section_most_popular -->
     <section>
-      <div class="wrapper">
-        <div class="item-1">
-          <div class="title">
-            <h1>Art Of Cakes</h1>
-            <span>We create delicous memories</span>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi ratione dicta earum ut consectetur nesciunt eaque dolorem, eveniet maiores fugit, provident harum minus</p>
-          </div>
-          <div class="handle">
-            <h3>Chef cook</h3>
-            <div class="handle-img">
-              <div>charles</div>
-              <div>
-                <img src="app/assets/img/chef.png" alt="">
+      <div class="best_dish">
+        <div class="best_inner">
+          <div class="container">
+            <div class="best_area">
+              <h2>Most Popular</h2>
+              <div class="row">
+                <div class="item_1">
+                  <div class="item_1_content">
+                    <figure>
+                      <a href="">
+                        <img src="app/assets/img/best-1.jpg" alt="">
+                      </a>
+                      <figcaption>
+                        <h4>
+                          12 <span>april</span>
+                        </h4>
+                      </figcaption>
+                    </figure>
+                    <div class="content">
+                      <h2>The Food Lab’s Complete Guide to Buying and Storing Eggs</h2>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae laborum quasi voluptates. Ea perferendis fugit numquam.</p>
+                      <a href="">Read More...</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="item_1">
+                  <div class="item_1_content">
+                    <figure>
+                      <a href="">
+                        <img src="app/assets/img/best-2.jpeg" alt="">
+                      </a>
+                      <figcaption>
+                        <h4>
+                          30 <span>march</span>
+                        </h4>
+                      </figcaption>
+                    </figure>
+                    <div class="content">
+                      <h2>The Food Lab’s Complete Guide to Buying and Storing Eggs</h2>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae laborum quasi voluptates. Ea perferendis fugit numquam.</p>
+                      <a href="">Read More...</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="item_1">
+                  <div class="item_1_content">
+                    <figure>
+                      <a href="">
+                        <img src="app/assets/img/best-3.jpeg" alt="">
+                      </a>
+                      <figcaption>
+                        <h4>
+                          20 <span>June</span>
+                        </h4>
+                      </figcaption>
+                    </figure>
+                    <div class="content">
+                      <h2>The Food Lab’s Complete Guide to Buying and Storing Eggs</h2>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae laborum quasi voluptates. Ea perferendis fugit numquam.</p>
+                      <a href="">Read More...</a>
+                    </div>
+                  </div>
+                </div>
               </div>
-              <div>dickens</div>
-            </div>
-            <h2>unique creations for unique occasions,,</h2>
-          </div>
-        </div>
+              <div class="row">
 
-        <div class="item-2">
-          <img src="app/assets/img/bread.jpg" alt="">
+                <div class="item_1">
+                  <div class="item_1_content">
+                    <figure>
+                      <a href="">
+                        <img src="app/assets/img/best-4.jpeg" alt="">
+                      </a>
+                      <figcaption>
+                        <h4>
+                          15 <span>Aug</span>
+                        </h4>
+                      </figcaption>
+                    </figure>
+                    <div class="content">
+                      <h2>The Food Lab’s Complete Guide to Buying and Storing Eggs</h2>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae laborum quasi voluptates. Ea perferendis fugit numquam.</p>
+                      <a href="">Read More...</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="item_1">
+                  <div class="item_1_content">
+                    <figure>
+                      <a href="">
+                        <img src="app/assets/img/best-5.jpeg" alt="">
+                      </a>
+                      <figcaption>
+                        <h4>
+                          22 <span>Nove</span>
+                        </h4>
+                      </figcaption>
+                    </figure>
+                    <div class="content">
+                      <h2>The Food Lab’s Complete Guide to Buying and Storing Eggs</h2>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae laborum quasi voluptates. Ea perferendis fugit numquam.</p>
+                      <a href="">Read More...</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="item_1">
+                  <div class="item_1_content">
+                    <figure>
+                      <a href="">
+                        <img src="app/assets/img/best-6.jpeg" alt="">
+                      </a>
+                      <figcaption>
+                        <h4>
+                          28 <span>Oct</span>
+                        </h4>
+                      </figcaption>
+                    </figure>
+                    <div class="content">
+                      <h2>The Food Lab’s Complete Guide to Buying and Storing Eggs</h2>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae laborum quasi voluptates. Ea perferendis fugit numquam.</p>
+                      <a href="">Read More...</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
+  <section>
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="row clearfix">
+              <div class="col-1">
+                <img src="app/assets/img/wine.jpg" alt="">
+              </div>
+              <div class="col-2">
+                <h2>Experience</h2>
+                <h1>wine</h1>
+                <div class="title-a">Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia beatae eveniet dolor similique magnam consectetur quaerat odit quos accusantium.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat illo voluptate voluptates placeat rerum iste eaque aliquid amet, perspiciatis est, minus facere magni laudantium non corrupti laboriosam doloremque. Cum, tempore.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- menu -->
+    <section class="main-menu">
+      <div class="container">
+        <div class="row clearfix">
+          <div class="col-1">
+            <div class="offer-left">
+              <span>explore our menu</span>
+              <h2>special offers</h2>
+              <div class="offer-item">
+                <img src="app/assets/img/offer1.jpeg" alt="">
+                <div>
+                  <h3>le chocolat chaud – hot cocoa</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores quae, eum aliquam.
+                  </p>
+                </div>
+                <span>$10</span>
+              </div>
+
+              <div class="offer-item">
+                <img src="app/assets/img/offer2.jpg" alt="">
+                <div>
+                  <h3>le chocolat chaud – hot cocoa</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores quae, eum aliquam.
+                  </p>
+                </div>
+                <span>$10</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-2">
+            <div class="offer-right">
+              <img src="app/assets/img/offerright.jpg" alt="">
+              <a href="">
+              <span>Our</span>
+                Menu
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- section-team -->
+    <section class="team">
+      <span>chef team</span>
+      <h2>Best Chefs For You</h2>
+      <div class="container">
+        <div class="row clearfix">
+          <div class="col-12">
+            <ul>
+              <li>
+                <figure>
+                <div class="hold-img">
+                  <img src="app/assets/img/chefs.png" alt="">
+                </div>
+                <figcaption>
+                  <span>senior chef</span>
+                  <h3>julio rodriguz</h3>
+                  <div class="link">
+                    <a href=""><?xml version="1.0" encoding="iso-8859-1"?>
+                      <!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+                      <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+                      <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                         width="96.124px" height="96.123px" viewBox="0 0 96.124 96.123" style="enable-background:new 0 0 96.124 96.123;"
+                         xml:space="preserve">
+                      <g>
+                        <path d="M72.089,0.02L59.624,0C45.62,0,36.57,9.285,36.57,23.656v10.907H24.037c-1.083,0-1.96,0.878-1.96,1.961v15.803
+                          c0,1.083,0.878,1.96,1.96,1.96h12.533v39.876c0,1.083,0.877,1.96,1.96,1.96h16.352c1.083,0,1.96-0.878,1.96-1.96V54.287h14.654
+                          c1.083,0,1.96-0.877,1.96-1.96l0.006-15.803c0-0.52-0.207-1.018-0.574-1.386c-0.367-0.368-0.867-0.575-1.387-0.575H56.842v-9.246
+                          c0-4.444,1.059-6.7,6.848-6.7l8.397-0.003c1.082,0,1.959-0.878,1.959-1.96V1.98C74.046,0.899,73.17,0.022,72.089,0.02z"/>
+                      </svg>
+                      </a>
+                    <a href=""><?xml version="1.0" encoding="iso-8859-1"?>
+                      <!-- Generator: Adobe Illustrator 18.1.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+                      <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                         viewBox="0 0 612 612" style="enable-background:new 0 0 612 612;" xml:space="preserve">
+                      <g>
+                        <g>
+                          <path style="fill:#010002;" d="M612,116.258c-22.525,9.981-46.694,16.75-72.088,19.772c25.929-15.527,45.777-40.155,55.184-69.411
+                            c-24.322,14.379-51.169,24.82-79.775,30.48c-22.907-24.437-55.49-39.658-91.63-39.658c-69.334,0-125.551,56.217-125.551,125.513
+                            c0,9.828,1.109,19.427,3.251,28.606C197.065,206.32,104.556,156.337,42.641,80.386c-10.823,18.51-16.98,40.078-16.98,63.101
+                            c0,43.559,22.181,81.993,55.835,104.479c-20.575-0.688-39.926-6.348-56.867-15.756v1.568c0,60.806,43.291,111.554,100.693,123.104
+                            c-10.517,2.83-21.607,4.398-33.08,4.398c-8.107,0-15.947-0.803-23.634-2.333c15.985,49.907,62.336,86.199,117.253,87.194
+                            c-42.947,33.654-97.099,53.655-155.916,53.655c-10.134,0-20.116-0.612-29.944-1.721c55.567,35.681,121.536,56.485,192.438,56.485
+                            c230.948,0,357.188-191.291,357.188-357.188l-0.421-16.253C573.872,163.526,595.211,141.422,612,116.258z"/>
+                        </g>
+                      </svg>
+                      </a>
+                    <a href=""><?xml version="1.0" encoding="iso-8859-1"?>
+                      <!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+                      <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+                      <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                         width="169.063px" height="169.063px" viewBox="0 0 169.063 169.063" style="enable-background:new 0 0 169.063 169.063;"
+                         xml:space="preserve">
+                      <g>
+                        <path d="M122.406,0H46.654C20.929,0,0,20.93,0,46.655v75.752c0,25.726,20.929,46.655,46.654,46.655h75.752
+                          c25.727,0,46.656-20.93,46.656-46.655V46.655C169.063,20.93,148.133,0,122.406,0z M154.063,122.407
+                          c0,17.455-14.201,31.655-31.656,31.655H46.654C29.2,154.063,15,139.862,15,122.407V46.655C15,29.201,29.2,15,46.654,15h75.752
+                          c17.455,0,31.656,14.201,31.656,31.655V122.407z"/>
+                        <path d="M84.531,40.97c-24.021,0-43.563,19.542-43.563,43.563c0,24.02,19.542,43.561,43.563,43.561s43.563-19.541,43.563-43.561
+                          C128.094,60.512,108.552,40.97,84.531,40.97z M84.531,113.093c-15.749,0-28.563-12.812-28.563-28.561
+                          c0-15.75,12.813-28.563,28.563-28.563s28.563,12.813,28.563,28.563C113.094,100.281,100.28,113.093,84.531,113.093z"/>
+                        <path d="M129.921,28.251c-2.89,0-5.729,1.17-7.77,3.22c-2.051,2.04-3.23,4.88-3.23,7.78c0,2.891,1.18,5.73,3.23,7.78
+                          c2.04,2.04,4.88,3.22,7.77,3.22c2.9,0,5.73-1.18,7.78-3.22c2.05-2.05,3.22-4.89,3.22-7.78c0-2.9-1.17-5.74-3.22-7.78
+                          C135.661,29.421,132.821,28.251,129.921,28.251z"/>
+
+                      </svg>
+                      </a>
+                  </div>
+                </figcaption>
+              </figure>
+              </li>
+              <li><figure>
+                  <div class="hold-img">
+                    <img src="app/assets/img/chefs.png" alt="">
+                  </div>
+                  <figcaption>
+                    <span>senior chef</span>
+                    <h3>julio rodriguz</h3>
+                    <div class="link">
+                      <a href=""><?xml version="1.0" encoding="iso-8859-1"?>
+                        <!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+                        <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+                        <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                           width="96.124px" height="96.123px" viewBox="0 0 96.124 96.123" style="enable-background:new 0 0 96.124 96.123;"
+                           xml:space="preserve">
+                        <g>
+                          <path d="M72.089,0.02L59.624,0C45.62,0,36.57,9.285,36.57,23.656v10.907H24.037c-1.083,0-1.96,0.878-1.96,1.961v15.803
+                            c0,1.083,0.878,1.96,1.96,1.96h12.533v39.876c0,1.083,0.877,1.96,1.96,1.96h16.352c1.083,0,1.96-0.878,1.96-1.96V54.287h14.654
+                            c1.083,0,1.96-0.877,1.96-1.96l0.006-15.803c0-0.52-0.207-1.018-0.574-1.386c-0.367-0.368-0.867-0.575-1.387-0.575H56.842v-9.246
+                            c0-4.444,1.059-6.7,6.848-6.7l8.397-0.003c1.082,0,1.959-0.878,1.959-1.96V1.98C74.046,0.899,73.17,0.022,72.089,0.02z"/>
+                        </svg>
+                        </a>
+                      <a href=""><?xml version="1.0" encoding="iso-8859-1"?>
+                        <!-- Generator: Adobe Illustrator 18.1.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+                        <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                           viewBox="0 0 612 612" style="enable-background:new 0 0 612 612;" xml:space="preserve">
+                        <g>
+                          <g>
+                            <path style="fill:#010002;" d="M612,116.258c-22.525,9.981-46.694,16.75-72.088,19.772c25.929-15.527,45.777-40.155,55.184-69.411
+                              c-24.322,14.379-51.169,24.82-79.775,30.48c-22.907-24.437-55.49-39.658-91.63-39.658c-69.334,0-125.551,56.217-125.551,125.513
+                              c0,9.828,1.109,19.427,3.251,28.606C197.065,206.32,104.556,156.337,42.641,80.386c-10.823,18.51-16.98,40.078-16.98,63.101
+                              c0,43.559,22.181,81.993,55.835,104.479c-20.575-0.688-39.926-6.348-56.867-15.756v1.568c0,60.806,43.291,111.554,100.693,123.104
+                              c-10.517,2.83-21.607,4.398-33.08,4.398c-8.107,0-15.947-0.803-23.634-2.333c15.985,49.907,62.336,86.199,117.253,87.194
+                              c-42.947,33.654-97.099,53.655-155.916,53.655c-10.134,0-20.116-0.612-29.944-1.721c55.567,35.681,121.536,56.485,192.438,56.485
+                              c230.948,0,357.188-191.291,357.188-357.188l-0.421-16.253C573.872,163.526,595.211,141.422,612,116.258z"/>
+                          </g>
+                        </svg>
+                        </a>
+                      <a href=""><?xml version="1.0" encoding="iso-8859-1"?>
+                        <!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+                        <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+                        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                           width="169.063px" height="169.063px" viewBox="0 0 169.063 169.063" style="enable-background:new 0 0 169.063 169.063;"
+                           xml:space="preserve">
+                        <g>
+                          <path d="M122.406,0H46.654C20.929,0,0,20.93,0,46.655v75.752c0,25.726,20.929,46.655,46.654,46.655h75.752
+                            c25.727,0,46.656-20.93,46.656-46.655V46.655C169.063,20.93,148.133,0,122.406,0z M154.063,122.407
+                            c0,17.455-14.201,31.655-31.656,31.655H46.654C29.2,154.063,15,139.862,15,122.407V46.655C15,29.201,29.2,15,46.654,15h75.752
+                            c17.455,0,31.656,14.201,31.656,31.655V122.407z"/>
+                          <path d="M84.531,40.97c-24.021,0-43.563,19.542-43.563,43.563c0,24.02,19.542,43.561,43.563,43.561s43.563-19.541,43.563-43.561
+                            C128.094,60.512,108.552,40.97,84.531,40.97z M84.531,113.093c-15.749,0-28.563-12.812-28.563-28.561
+                            c0-15.75,12.813-28.563,28.563-28.563s28.563,12.813,28.563,28.563C113.094,100.281,100.28,113.093,84.531,113.093z"/>
+                          <path d="M129.921,28.251c-2.89,0-5.729,1.17-7.77,3.22c-2.051,2.04-3.23,4.88-3.23,7.78c0,2.891,1.18,5.73,3.23,7.78
+                            c2.04,2.04,4.88,3.22,7.77,3.22c2.9,0,5.73-1.18,7.78-3.22c2.05-2.05,3.22-4.89,3.22-7.78c0-2.9-1.17-5.74-3.22-7.78
+                            C135.661,29.421,132.821,28.251,129.921,28.251z"/>
+
+                        </svg>
+                        </a>
+                    </div>
+                  </figcaption>
+                </figure></li>
+              <li><figure>
+                  <div class="hold-img">
+                    <img src="app/assets/img/chefs.png" alt="">
+                  </div>
+                  <figcaption>
+                    <span>senior chef</span>
+                    <h3>julio rodriguz</h3>
+                    <div class="link">
+                      <a href=""><?xml version="1.0" encoding="iso-8859-1"?>
+                        <!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+                        <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+                        <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                           width="96.124px" height="96.123px" viewBox="0 0 96.124 96.123" style="enable-background:new 0 0 96.124 96.123;"
+                           xml:space="preserve">
+                        <g>
+                          <path d="M72.089,0.02L59.624,0C45.62,0,36.57,9.285,36.57,23.656v10.907H24.037c-1.083,0-1.96,0.878-1.96,1.961v15.803
+                            c0,1.083,0.878,1.96,1.96,1.96h12.533v39.876c0,1.083,0.877,1.96,1.96,1.96h16.352c1.083,0,1.96-0.878,1.96-1.96V54.287h14.654
+                            c1.083,0,1.96-0.877,1.96-1.96l0.006-15.803c0-0.52-0.207-1.018-0.574-1.386c-0.367-0.368-0.867-0.575-1.387-0.575H56.842v-9.246
+                            c0-4.444,1.059-6.7,6.848-6.7l8.397-0.003c1.082,0,1.959-0.878,1.959-1.96V1.98C74.046,0.899,73.17,0.022,72.089,0.02z"/>
+                        </svg>
+                        </a>
+                      <a href=""><?xml version="1.0" encoding="iso-8859-1"?>
+                        <!-- Generator: Adobe Illustrator 18.1.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+                        <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                           viewBox="0 0 612 612" style="enable-background:new 0 0 612 612;" xml:space="preserve">
+                        <g>
+                          <g>
+                            <path d="M612,116.258c-22.525,9.981-46.694,16.75-72.088,19.772c25.929-15.527,45.777-40.155,55.184-69.411
+                              c-24.322,14.379-51.169,24.82-79.775,30.48c-22.907-24.437-55.49-39.658-91.63-39.658c-69.334,0-125.551,56.217-125.551,125.513
+                              c0,9.828,1.109,19.427,3.251,28.606C197.065,206.32,104.556,156.337,42.641,80.386c-10.823,18.51-16.98,40.078-16.98,63.101
+                              c0,43.559,22.181,81.993,55.835,104.479c-20.575-0.688-39.926-6.348-56.867-15.756v1.568c0,60.806,43.291,111.554,100.693,123.104
+                              c-10.517,2.83-21.607,4.398-33.08,4.398c-8.107,0-15.947-0.803-23.634-2.333c15.985,49.907,62.336,86.199,117.253,87.194
+                              c-42.947,33.654-97.099,53.655-155.916,53.655c-10.134,0-20.116-0.612-29.944-1.721c55.567,35.681,121.536,56.485,192.438,56.485
+                              c230.948,0,357.188-191.291,357.188-357.188l-0.421-16.253C573.872,163.526,595.211,141.422,612,116.258z"/>
+                          </g>
+                        </svg>
+                        </a>
+                      <a href=""><?xml version="1.0" encoding="iso-8859-1"?>
+                        <!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+                        <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+                        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                           width="169.063px" height="169.063px" viewBox="0 0 169.063 169.063" style="enable-background:new 0 0 169.063 169.063;"
+                           xml:space="preserve">
+                        <g>
+                          <path d="M122.406,0H46.654C20.929,0,0,20.93,0,46.655v75.752c0,25.726,20.929,46.655,46.654,46.655h75.752
+                            c25.727,0,46.656-20.93,46.656-46.655V46.655C169.063,20.93,148.133,0,122.406,0z M154.063,122.407
+                            c0,17.455-14.201,31.655-31.656,31.655H46.654C29.2,154.063,15,139.862,15,122.407V46.655C15,29.201,29.2,15,46.654,15h75.752
+                            c17.455,0,31.656,14.201,31.656,31.655V122.407z"/>
+                          <path d="M84.531,40.97c-24.021,0-43.563,19.542-43.563,43.563c0,24.02,19.542,43.561,43.563,43.561s43.563-19.541,43.563-43.561
+                            C128.094,60.512,108.552,40.97,84.531,40.97z M84.531,113.093c-15.749,0-28.563-12.812-28.563-28.561
+                            c0-15.75,12.813-28.563,28.563-28.563s28.563,12.813,28.563,28.563C113.094,100.281,100.28,113.093,84.531,113.093z"/>
+                          <path d="M129.921,28.251c-2.89,0-5.729,1.17-7.77,3.22c-2.051,2.04-3.23,4.88-3.23,7.78c0,2.891,1.18,5.73,3.23,7.78
+                            c2.04,2.04,4.88,3.22,7.77,3.22c2.9,0,5.73-1.18,7.78-3.22c2.05-2.05,3.22-4.89,3.22-7.78c0-2.9-1.17-5.74-3.22-7.78
+                            C135.661,29.421,132.821,28.251,129.921,28.251z"/>
+
+                        </svg>
+                        </a>
+                    </div>
+                  </figcaption>
+                </figure>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+      <!-- testimonials -->
+    <section class="main_test">
+      <div class="wrapper">
+      <div class="container">
+        <h2>TESTIMONIALS</h2>
+        <div class="stars">
+          <a href="">
+              <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64"><defs><style>.cls-1{fill:#d4953f;}</style></defs><title>star</title><path class="cls-1" d="M32,0L24,24H0L20,40,12,64,32,48,52,64,44,40,64,24H40Z"/></svg>
+          </a>
+          <a href="">
+              <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64"><defs><style>.cls-1{fill:#d4953f;}</style></defs><title>star</title><path class="cls-1" d="M32,0L24,24H0L20,40,12,64,32,48,52,64,44,40,64,24H40Z"/></svg>
+          </a>
+          <a href="">
+              <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64"><defs><style>.cls-1{fill:#d4953f;}</style></defs><title>star</title><path class="cls-1" d="M32,0L24,24H0L20,40,12,64,32,48,52,64,44,40,64,24H40Z"/></svg>
+          </a>
+        </div>
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+            <div class="testimonials-item">
+              <figure>
+                <img src="app/assets/img/testp-2.jpg" alt="">
+              </figure>
+              <h4>- Susanna Davis -</h4>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati dolore alias sed quam ab distinctio veritatis praesentium.</p>
+            </div>
+
+            </div>
+            <div class="item">
+                <div class="testimonials-item">
+                    <figure>
+                      <img src="app/assets/img/test--1.jpg" alt="">
+                    </figure>
+                    <h4>- Susanna Davis -</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati dolore alias sed quam ab distinctio veritatis praesentium.</p>
+                  </div>
+            </div>
+            <div class="item">
+                <div class="testimonials-item">
+                    <figure>
+                      <img src="app/assets/img/testp-3.jpg" alt="">
+                    </figure>
+                    <h4>- Susanna Davis -</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati dolore alias sed quam ab distinctio veritatis praesentium.</p>
+                  </div>
+            </div>
+
+        </div>
+      </div>
+    </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+      <div class="container">
+        <div class="footer-logo">
+          <h2>food truck</h2>
+        </div>
+        <div class="row">
+          <div class="col-1">
+            <div class="footer-content">
+              <h5>address:</h5>
+              <p>food truck <br> 40 Park Ave, Brooklyn, New York 70250
+              </p>
+            </div>
+          </div>
+          <div class="col-2">
+            <div class="footer-content">
+              <h5>RESERVATION:</h5>
+              <p>000-111-222 <br>
+                @contact@truck.com
+              </p>
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="footer-content">
+              <h5>OPEN HOURS:
+              </h5>
+              <p>Monday - Friday: 10 AM - 11 PM
+                <br>
+                Saturday - Sunday: 9 AM - 1 PM
+              </p>
+            </div>
+          </div>
+        </div>
+        <ul class="footer">
+          <li><a>
+            <?xml version="1.0" encoding="iso-8859-1"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="96.124px" height="96.123px" viewBox="0 0 96.124 96.123" style="enable-background:new 0 0 96.124 96.123;"
+	 xml:space="preserve">
+<g>
+	<path d="M72.089,0.02L59.624,0C45.62,0,36.57,9.285,36.57,23.656v10.907H24.037c-1.083,0-1.96,0.878-1.96,1.961v15.803
+		c0,1.083,0.878,1.96,1.96,1.96h12.533v39.876c0,1.083,0.877,1.96,1.96,1.96h16.352c1.083,0,1.96-0.878,1.96-1.96V54.287h14.654
+		c1.083,0,1.96-0.877,1.96-1.96l0.006-15.803c0-0.52-0.207-1.018-0.574-1.386c-0.367-0.368-0.867-0.575-1.387-0.575H56.842v-9.246
+		c0-4.444,1.059-6.7,6.848-6.7l8.397-0.003c1.082,0,1.959-0.878,1.959-1.96V1.98C74.046,0.899,73.17,0.022,72.089,0.02z"/>
+
+    </svg>
+  </a>
+  </li>
+<li><a>
+  <?xml version="1.0" encoding="iso-8859-1"?>
+<!-- Generator: Adobe Illustrator 18.1.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 612 612" style="enable-background:new 0 0 612 612;" xml:space="preserve">
+<g>
+	<g>
+		<path  d="M612,116.258c-22.525,9.981-46.694,16.75-72.088,19.772c25.929-15.527,45.777-40.155,55.184-69.411
+			c-24.322,14.379-51.169,24.82-79.775,30.48c-22.907-24.437-55.49-39.658-91.63-39.658c-69.334,0-125.551,56.217-125.551,125.513
+			c0,9.828,1.109,19.427,3.251,28.606C197.065,206.32,104.556,156.337,42.641,80.386c-10.823,18.51-16.98,40.078-16.98,63.101
+			c0,43.559,22.181,81.993,55.835,104.479c-20.575-0.688-39.926-6.348-56.867-15.756v1.568c0,60.806,43.291,111.554,100.693,123.104
+			c-10.517,2.83-21.607,4.398-33.08,4.398c-8.107,0-15.947-0.803-23.634-2.333c15.985,49.907,62.336,86.199,117.253,87.194
+			c-42.947,33.654-97.099,53.655-155.916,53.655c-10.134,0-20.116-0.612-29.944-1.721c55.567,35.681,121.536,56.485,192.438,56.485
+			c230.948,0,357.188-191.291,357.188-357.188l-0.421-16.253C573.872,163.526,595.211,141.422,612,116.258z"/>
+</svg>
+
+          </a></li>
+          <li><a>
+            <?xml version="1.0" encoding="iso-8859-1"?>
+<!-- Generator: Adobe Illustrator 18.1.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 23.952 23.952" style="enable-background:new 0 0 23.952 23.952;" xml:space="preserve">
+<g>
+	<path  d="M18.174,1.157h-2.116l0.709,0.576c0.282,0.234,0.547,0.524,0.802,0.871
+		c0.252,0.346,0.468,0.749,0.646,1.205c0.176,0.457,0.266,0.979,0.266,1.566c0,0.562-0.083,1.064-0.252,1.5
+		c-0.165,0.438-0.381,0.832-0.643,1.183S17.018,8.723,16.674,9l-1.06,0.811c-0.218,0.216-0.431,0.439-0.645,0.674
+		c-0.21,0.231-0.317,0.527-0.317,0.884c0,0.351,0.125,0.633,0.372,0.84c0.251,0.21,0.479,0.376,0.682,0.504l1.223,0.885
+		c0.337,0.29,0.653,0.582,0.957,0.878c0.302,0.295,0.574,0.614,0.815,0.957c0.236,0.345,0.427,0.723,0.561,1.136
+		c0.135,0.413,0.199,0.888,0.199,1.426c0,0.75-0.182,1.481-0.551,2.188c-0.368,0.709-0.912,1.346-1.638,1.909
+		c-0.724,0.564-1.621,1.015-2.691,1.353c-1.073,0.338-2.306,0.507-3.707,0.507c-1.232,0-2.302-0.125-3.207-0.378
+		c-0.908-0.252-1.666-0.587-2.271-1.006c-0.605-0.418-1.057-0.895-1.353-1.432c-0.295-0.537-0.44-1.1-0.44-1.691
+		c0-0.569,0.182-1.212,0.551-1.933c0.368-0.719,1.042-1.353,2.023-1.899c0.52-0.29,1.076-0.524,1.67-0.709
+		c0.592-0.183,1.176-0.324,1.758-0.427c0.582-0.101,1.133-0.173,1.655-0.217c0.52-0.042,0.971-0.075,1.343-0.097
+		c-0.231-0.287-0.448-0.592-0.648-0.909c-0.195-0.316-0.294-0.726-0.294-1.231c0-0.268,0.033-0.49,0.099-0.669
+		c0.065-0.181,0.137-0.362,0.221-0.543c-0.169,0.021-0.344,0.037-0.527,0.047c-0.186,0.011-0.368,0.018-0.543,0.018
+		c-0.906,0-1.704-0.141-2.398-0.429C7.822,10.164,7.228,9.79,6.743,9.33C6.26,8.868,5.895,8.34,5.655,7.743
+		C5.41,7.148,5.29,6.544,5.29,5.931c0-0.728,0.179-1.463,0.525-2.209c0.352-0.748,0.882-1.414,1.594-2.004
+		c0.978-0.75,1.993-1.224,3.051-1.421C11.515,0.1,12.499,0,13.415,0h6.935L18.174,1.157z M17.354,19.195
+		c0-0.389-0.064-0.744-0.196-1.069c-0.131-0.321-0.327-0.633-0.592-0.934c-0.265-0.301-0.639-0.619-1.121-0.955
+		c-0.483-0.337-1.03-0.719-1.646-1.149c-0.127-0.043-0.247-0.067-0.354-0.067H13.03c-0.086,0-0.248,0.007-0.489,0.016
+		c-0.241,0.011-0.53,0.035-0.868,0.071c-0.337,0.038-0.697,0.089-1.084,0.152c-0.384,0.065-0.752,0.148-1.104,0.256
+		c-0.197,0.064-0.452,0.163-0.771,0.296c-0.323,0.131-0.64,0.324-0.956,0.573c-0.317,0.249-0.59,0.568-0.817,0.95
+		c-0.233,0.383-0.346,0.845-0.346,1.389c0,0.562,0.134,1.072,0.405,1.531c0.271,0.457,0.668,0.86,1.185,1.213
+		c0.512,0.35,1.135,0.616,1.865,0.795c0.726,0.181,1.538,0.271,2.433,0.271c1.62,0,2.837-0.313,3.65-0.941
+		S17.354,20.166,17.354,19.195z M14.668,9.079c0.381-0.373,0.615-0.773,0.697-1.2c0.083-0.425,0.124-0.782,0.124-1.067
+		c0-0.564-0.086-1.179-0.255-1.846c-0.171-0.664-0.43-1.285-0.774-1.859c-0.347-0.576-0.777-1.059-1.289-1.453
+		c-0.521-0.397-1.115-0.592-1.797-0.592c-0.438,0-0.872,0.099-1.298,0.294C9.65,1.553,9.295,1.802,9.021,2.099
+		C8.731,2.43,8.539,2.793,8.435,3.185C8.335,3.581,8.284,3.986,8.284,4.4c0,0.521,0.083,1.105,0.244,1.748
+		c0.164,0.646,0.419,1.247,0.768,1.813c0.35,0.563,0.785,1.039,1.3,1.42c0.52,0.385,1.135,0.576,1.854,0.576
+		c0.423,0,0.834-0.078,1.232-0.24C14.079,9.557,14.41,9.343,14.668,9.079z"/>
+</svg>
+
+          </a></li>
+          <li><a>
+            <?xml version="1.0" encoding="iso-8859-1"?>
+<!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+<g>
+	<g>
+		<path d="M373.659,0H138.341C62.06,0,0,62.06,0,138.341v235.318C0,449.94,62.06,512,138.341,512h235.318
+			C449.94,512,512,449.94,512,373.659V138.341C512,62.06,449.94,0,373.659,0z M470.636,373.659
+			c0,53.473-43.503,96.977-96.977,96.977H138.341c-53.473,0-96.977-43.503-96.977-96.977V138.341
+			c0-53.473,43.503-96.977,96.977-96.977h235.318c53.473,0,96.977,43.503,96.977,96.977V373.659z"/>
+	</g>
+</g>
+<g>
+	<g>
+		<path d="M370.586,238.141c-3.64-24.547-14.839-46.795-32.386-64.342c-17.547-17.546-39.795-28.746-64.341-32.385
+			c-11.176-1.657-22.507-1.657-33.682,0c-30.336,4.499-57.103,20.541-75.372,45.172c-18.269,24.631-25.854,54.903-21.355,85.237
+			c4.499,30.335,20.541,57.102,45.172,75.372c19.996,14.831,43.706,22.619,68.153,22.619c5.667,0,11.375-0.418,17.083-1.265
+			c30.336-4.499,57.103-20.541,75.372-45.172C367.5,298.747,375.085,268.476,370.586,238.141z M267.791,327.632
+			c-19.405,2.882-38.77-1.973-54.527-13.66c-15.757-11.687-26.019-28.811-28.896-48.216c-2.878-19.405,1.973-38.77,13.66-54.527
+			c11.688-15.757,28.811-26.019,48.217-28.897c3.574-0.53,7.173-0.795,10.772-0.795s7.199,0.265,10.773,0.796
+			c32.231,4.779,57.098,29.645,61.878,61.877C335.608,284.268,307.851,321.692,267.791,327.632z"/>
+	</g>
+</g>
+<g>
+	<g>
+		<path d="M400.049,111.951c-3.852-3.851-9.183-6.058-14.625-6.058c-5.442,0-10.773,2.206-14.625,6.058
+			c-3.851,3.852-6.058,9.174-6.058,14.625c0,5.451,2.207,10.773,6.058,14.625c3.852,3.851,9.183,6.058,14.625,6.058
+			c5.442,0,10.773-2.206,14.625-6.058c3.851-3.852,6.058-9.183,6.058-14.625C406.107,121.133,403.9,115.802,400.049,111.951z"/>
+	</g>
+</svg>
+  </a></li>
+</ul>
+  <div class="copyright">
+    Copyright © 2016, food truck . Designed by muhammad sayed
+  </div>
+  </div>
+</footer>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="app/assets/js/owl.carousel.min.js"></script>
+    <script src="app/assets/js/function.js"></script>
   </body>
 </html>
